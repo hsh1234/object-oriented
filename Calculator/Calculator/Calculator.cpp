@@ -6,7 +6,9 @@
 #include "Scan.h"
 using namespace std;
 queue <string> Que;
-int main(){
+
+int main()
+{
 	string input;
 	Scan scan;
 	Paint print;
