@@ -1,3 +1,9 @@
+/******
+filename：Caculater.cpp
+author:031502512 date:2016.3.26
+Function:分离一个四则运算式
+******/
+
 #include <iostream>
 #include <string>
 #include <queue>
