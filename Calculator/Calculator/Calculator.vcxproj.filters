@@ -24,12 +24,18 @@
     <ClCompile Include="Paint.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="regnize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Scan.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Paint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="regnize.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

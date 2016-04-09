@@ -80,10 +80,12 @@
   <ItemGroup>
     <ClCompile Include="Calculator.cpp" />
     <ClCompile Include="Paint.cpp" />
+    <ClCompile Include="regnize.cpp" />
     <ClCompile Include="Scan.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Paint.h" />
+    <ClInclude Include="regnize.h" />
     <ClInclude Include="Scan.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
