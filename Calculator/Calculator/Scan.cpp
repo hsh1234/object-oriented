@@ -129,6 +129,15 @@ void Scan::ToStringQueue(string input)
 						Num.pop();
 						Num.push(midnum);
 					}
+					if (Str.top() == "-")
+					{
+						
+						midnum = -1 * Num.top();
+						Num.pop();
+						midnum += Num.top();
+						Num.pop();
+						Num.push(midnum);
+					}
 						Str.pop();
 						Str.push(Que.front());
 				}
