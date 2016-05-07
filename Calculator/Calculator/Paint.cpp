@@ -13,6 +13,7 @@ void Paint::Printqueue()
 {
 	
 		cout << Num.top() << endl;//打印队列最前面的元素
+		
 	
 
 }

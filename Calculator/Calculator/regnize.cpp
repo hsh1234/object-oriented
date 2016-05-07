@@ -26,6 +26,7 @@ bool Regnize::regnize(string c1, string c2)//规定+ - * / （ ） 的优先级
 	}
 	if (c1 == "-")
 	{
+		if (c2 == "-") return 1;
 		if (c2 == ")") return 1;
 		if (c2 == "+") return 1;
 		else return 0;
