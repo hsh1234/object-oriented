@@ -15,7 +15,7 @@ void Scan::ToStringQueue(string input)
 	string str;
 	Regnize Reg;
 	l = input.size();//计算字符串的长度，在后面判断是否为输入字符串的最后一位有用到
-	for (i = 0; i < l; i++)
+	for (i = 0; i < l-1; i++)
 	{
 		
 		if (input[i] == '+' || input[i] == '*' || input[i] == '/' || input[i] == '(' || input[i] == ')') 
@@ -49,7 +49,7 @@ void Scan::ToStringQueue(string input)
 		{
 			str += input[i];//C++中字符串可以直接用加法来连接
 			
-			if (input[i+1] == '+' || input[i+1] == '-' || input[i+1] == '*' || input[i+1] == '/' || input[i+1] == '(' || input[i+1] == ')' || i==l-1 ) 
+			if (input[i+1]=='=' ||input[i+1] == '+' || input[i+1] == '-' || input[i+1] == '*' || input[i+1] == '/' || input[i+1] == '(' || input[i+1] == ')' || i==l-1 ) 
 			{
 				if (str.size() <= 10) 
 				{//若处理的数字不超过10位便传入队列
